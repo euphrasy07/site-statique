@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 
@@ -19,92 +19,98 @@
     <header>
         <nav>
             <img src="logo.png" alt="logo du site" id="logo">
-            <a href=" #formations" id="white">Les formations</a>
+            <a href=" .formations" id="white">Les formations</a>
             <form class="search-bar">
                 <div class="search-wrapper">
                     <input class="search-bar" type="search" placeholder="Rechercher ..." required>
                     <button class="glass" type="submit">
-                        <img src="icone.png" class="search-icon">
+                        <img src="icone.png" alt="icone de recherche" class="search-icon">
                     </button>
                 </div>
             </form>
+             <input type="checkbox" id="burger-toggle">
+             <label for="burger-toggle" class="burger">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </label>  
+            <div class="mobile-menu">
+    <button class="white-btn">connexion</button>
+    <button class="blue-btn">inscription</button>
+</div>
+            
             <div class="button">
                 <button type="submit" class="white-btn">connexion</button>
                 <button type="submit" class="blue-btn">inscription</button>
-            </div>
+            </div>  
         </nav>
     </header>
     <section id="back-image">
-        <img src="bg-header.png" id="image">
-        <div id="filter"></div>
+        
         <h1> KLIVIO,L'ALLIÉ DE VOTRE PROGRESSION</h1>
         <p id="fonts"> LES MEILLEURES FORMATION SUR LE DÉVELOPPEMENT PERSONNEL</p>
 
-        <button type="submit" class="white-btn"> En savoir plus</button>
+        <button type="submit" id="display-btn"> En savoir plus</button>
     </section>
-    <section class="main-white" id="formations">
+    <section class="main-white" class="formations">
         <div class="h2">
             <h2>Les Formations Populaire</h2>
         </div>
         <div class="all-card">
             <div class="card">
-                <!-- <div class="button-img"> -->
+                
                 <div class="price">15,99€ <p class="decoration">60€ </p>
                 </div>
                 <div class="width"></div>
-                <!-- </div> -->
+                
                 <h3 class="white-h3">Parler en public</h3>
-                <!-- <div class="for-star"> -->
+                
                 <p>sonia Lefèvre|Coach prise de parole</p>
-                <img src="note.png" class="star">
+                <img src="note.png"  alt="étoile de notation "class="star">
                 <p>Gagnez en laissant et captez votre auditoire </p>
-                <!-- </div> -->
             </div>
 
 
 
             <div class="card">
-                <!-- <div class="button-img"> -->
+                
                 <div class="price">15,99€ <p class="decoration">60€ </p>
                 </div>
                 <div class="width"></div>
-                <!-- </div> -->
+                
                 <h3 class="white-h3">Gérer le stress </h3>
-                <!-- <div class="for-star"> -->
+                
                 <p>Lucie Garnier|Formatrice</p>
-                <img src="4 étoiles.png" class="star">
+                <img src="4etoiles.png" alt="étoile de notation" class="star">
                 <p>Apprenez a rester serein face aux défis </p>
-                <!-- </div> -->
+        
             </div>
 
 
             <div class="card">
-                <!-- <div class="button-img"> -->
+                
                 <div class="price">15,99€<p class="decoration">60€</p>
                 </div>
                 <div class="width"></div>
-                <!-- </div> -->
+                
                 <h3 class="white-h3">Travailler en equipe</h3>
-                <!-- <div class="for-star"> -->
-                <p><Data>David Moreau|Expert</p>
-                <img src="note.png" class="star">
+                
+                <p>David Moreau|Expert</p>
+                <img src="note.png" alt="notation étoiles" class="star">
                 <p>Collaborer efficacement,même à distance</p>
-                <!-- </div> -->
             </div>
 
 
             <div class="card">
-                <!-- <div class="button-img"> -->
+                
                 <div class="price">15,99€<p class="decoration">60€</p>
                 </div>
                 <div class="width"></div>
-                <!-- </div> -->
+    
                 <h3 class="white-h3">Gérer son temps</h3>
-                <!-- <div class="for-star"> -->
+                
                 <p>Claire Dumas|Coach organisation </p>
-                <img src="4 étoiles.png" class="star">
+                <img src="4 étoiles.png" alt="notation étoiles" class="star">
                 <p>Optimisez vos journées et gagnez en efficacité </p>
-                <!-- </div> -->
+            
             </div>
 
 
@@ -114,60 +120,60 @@
         </div>
     </section>
 
-    <main class="main-blue" id="formations">
+    <main class="main-blue" class="formations">
         <div class="white-h2">
             <h2 id="h3">Les Formations récentes</h2>
         </div>
         <div class="all-card">
             <div class="card">
-                <!-- <div class="button-img"> -->
+                
                 <div class="white-price">15,99€ <p class="decoration">60€ </p>
                 </div>
                 <div class="width"></div>
-                <!-- </div> -->
+                
                 <h3>Mieux communiquer</h3>
                 <p class="white-p">Julien Martel | Coach en comm.</p>
-                <img src="note.png" class="star">
+                <img src="note.png" alt="notation étoiles" class="star">
                 <p class="white-p">Améliorez vos échanges et votre impact relationnel</p>
             </div>
 
 
 
             <div class="card">
-                <!-- <div class="button-img"> -->
+                
                 <div class="white-price">15,99€ <p class="decoration">60€ </p>
                 </div>
                 <div class="width"></div>
-                <!-- </div> -->
+            
                 <h3>Maîtriser ses émotions </h3>
                 <p class="white-p">Amel Benali | Psy. du travail</p>
-                <img src="note.png" class="star">
+                <img src="note.png" alt="notation étoiles" class="star">
                 <p class="white-p">Développez calme et intelligence émotionnelle </p>
             </div>
 
 
             <div class="card">
-                <!-- <div class="button-img"> -->
+            
                 <div class="white-price">15,99€<p class="decoration">60€</p>
                 </div>
                 <div class="width"></div>
-                <!-- </div> -->
+                
                 <h3>Résoudre les problèmes</h3>
-                <p class="white-p"><Data>Thomas Rivière | Expert</p>
-                <img src="4 étoiles.png" class="star">
+                <p class="white-p">Thomas Rivière | Expert</p>
+                <img src="4etoiles.png" alt="notations d'étoiles" class="star">
                 <p class="white-p">Analysez, décidez et trouvez des solutions durables</p>
             </div>
 
 
             <div class="card">
-                <!-- <div class="button-img"> -->
+                
                 <div class="white-price">15,99€<p class="decoration">60€</p>
                 </div>
                 <div class="width"></div>
-                <!-- </div> -->
+                
                 <h3>Leadership positif</h3>
                 <p class="white-p">Marc Nguyen | Consultant </p>
-                <img src="4 étoiles.png" class="star">
+                <img src="4etoiles.png" alt="notation d'étoiles" class="star">
                 <p class="white-p">Inspirez, motivez et fédérez votre équipe </p>
             </div>
 
@@ -178,7 +184,7 @@
         </div>
     </main>
     <section id="avis">
-        <h2> AVIS CLIENTS</h2>
+        <h2 id="center"> AVIS CLIENTS</h2>
         <div id="div-avis">
             <div id="first-avis">
                 <img src="juliette.png" alt="photo d'une clliente" class="avis-img">
@@ -206,30 +212,32 @@
 
 
                 <div class="photo">
-                    <div class="display">
-                        <img src="arrow.png" alt="icone flèche">
-                        <p>Suivi de sa progression</p>
-                    </div>
-                    <div class="display">
-                        <img src="crayon.png" alt="icone crayon">
-                        <p>Exercice et QCM pour la mise en pratique</p>
-                    </div>
-                    <div class="display">
-                        <img src="back-arrow.png" alt="icone téléchargement">
-                        <p>Possibilité de télécharger/imprimer les formations</p>
-                    </div>
-                    <div class="display">
-                        <img src="star.png" alt="icone favoris">
-                        <p>Contenu qualitatif et vérifié</p>
-                    </div>
-                    <div class="display">
-                        <img src="time.png" alt="icone timing">
-                        <p>Suivi en autonomie ,24h/24, 7j/7</p>
-                    </div>
-                    <div class="display">
-                        <img src="message.png" alt="icone messagerie">
-                        <p>Espaces d'échanges dédiés pour poser ses questions sur les formations</p>
-                    </div>
+                    <ul>
+                        <li>
+                            <img src="arrow.png" alt="icone flèche">
+                            <p>Suivi de sa progression</p>
+                        </li>
+                        <li>
+                            <img src="crayon.png" alt="icone crayon">
+                            <p>Exercice et QCM pour la mise en pratique</p>
+                        </li>
+                        <li>
+                            <img src="back-arrow.png" alt="icone téléchargement">
+                            <p>Possibilité de télécharger/imprimer les formations</p>
+                        </li>
+                        <li>
+                            <img src="star.png" alt="icone favoris">
+                            <p>Contenu qualitatif et vérifié</p>
+                        </li>
+                        <li>
+                            <img src="time.png" alt="icone timing">
+                            <p>Suivi en autonomie ,24h/24, 7j/7</p>
+                        </li>
+                        <li>
+                            <img src="message.png" alt="icone messagerie">
+                            <p>Espaces d'échanges dédiés pour poser ses questions sur les formations</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <img src="avantages.png" alt="femme sur un pc qui a l'air ravi" class="smile">
@@ -241,36 +249,47 @@
     </article>
 
     <article class="green-article">
-        <div class="principal-green">
-            <img src="become-author.png" alt="personne ne apprentissage">
+        <h2 class="cache">CREER VOS FORMATIONS</h2>
+        <div>
+            <img src="become-author.png" alt="quelqu'un qui apprend" id="solo">
         </div>
+
         <div class="green-paragraphes">
-            <h2>CRÉER VOS FORMATIONS AVEC KLIVIO</h2>
-            <div class="display">
-                <img src="money.png" alt="une main tenant ddes pièces" id="taille">
-                <p>Commission unique, au pourcentage sur les ventes</p>
-            </div>
-            <div class="display">
-                <img src="prefer.png" alt="préférences" id="taille">
-                <p>Commission unique, au pourcentage sur les ventes</p>
-            </div>
-            <div class="display">
-                <img src="pencil.png" alt="crayon" id="taille">
-                <p>Contrôle total sur le cours : contenu, prix</p>
-            </div>
-            <div class="display">
-                <img src="settings.png" alt="fonctionnalités" id="taille">
-                <p>Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos,
-                    téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la
-                    facturation, etc</p>
-            </div>
-            <div class="display">
-                <img src="contacts.png" alt="profil" id="taille">
-                <p>Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos,
-                    téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la
-                    facturation, etc</p>
-            </div>
+            
+        <h2 class="out">CRÉER VOS FORMATIONS AVEC KLIVIO</h2>
+
+
+
+            <ul>
+                <li>
+                    <img src="money.png" alt="une main tenant ddes pièces" class="taille">
+                    <p>Commission unique, au pourcentage sur les ventes</p>
+                </li>
+
+
+                <li>
+                    <img src="prefer.png" alt="préférences" class="taille">
+                    <p>Commission unique, au pourcentage sur les ventes</p>
+                </li>
+                <li>
+                    <img src="pencil.png" alt="crayon" class="taille">
+                    <p>Contrôle total sur le cours : contenu, prix</p>
+                </li>
+                <li>
+                    <img src="settings.png" alt="fonctionnalités" class="taille">
+                    <p>Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos,
+                        téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la
+                        facturation, etc</p>
+                </li>
+                <li>
+                    <img src="contacts.png" alt="profil" class="taille">
+                    <p>Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos,
+                        téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la
+                        facturation, etc</p>
+                </li>
+            </ul>
         </div>
+
     </article>
 
     <section id="apropos">
@@ -294,31 +313,6 @@
         </div>
     </section>
 
-    <!-- <section class="contact">
-        <h2>NOUS CONTACTER</h2>
-        <img src="Line 9.png" alt="ligne verte">
-        
-        <div class="contact-form">
-            <div id="contact-form-name">
-                <input id="name" type="text" placeholder="Nom"/>
-            </div>
-            <div id="contact-form-email">
-                <input id="email" type="email" placeholder="Email"/>
-            </div>
-        </div>
-        
-            <textarea placeholder="Votre message" id="message">Votre message</textarea>
-            <div class="submit">
-                <button type="submit" class="btn-submit">Envoyer</button>
-            </div>
-        
-    </section> -->
-
-
-
-
-
-nous contacter
     <section id="contact">
         <div class="contact-container">
             <h2>NOUS CONTACTER</h2>
@@ -326,8 +320,8 @@ nous contacter
 
             <form class="contact-form">
                 <div class="form-row">
-                  <input type="text" placeholder="Nom" required >
-                 <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Nom" required>
+                    <input type="email" placeholder="Email" required>
                 </div>
 
                 <textarea placeholder="Votre message" required></textarea>
@@ -338,83 +332,55 @@ nous contacter
 
     </section>
 
-footer
+    <div class="rectangle"></div>
+
     <footer>
+
         <div class="footer-container">
 
             <div class="footer-logo">
                 <img src="logo.png" alt="logo klivio">
-                <p>© Klivio - 2025</p>
-            </div>
 
-            <div class="footer-links">
-                <h4>Mentions légales</h4>
-                <ul>
-                    <li><a href="#">CGU</a></li>
-                    <li><a href="#">CGV</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
             </div>
-
-            <div class="footer-contact">
-                <h4>Coordonnées</h4>
-               <p>  <i class="fa-light fa-location-dot" style="color: #ffffff;"></i>1 place république,<br>75003 paris</p>
-               <p><i class="fa-light fa-phone" style="color: #ffffff;"></i> 01.02.03.04.05</p>
-               <p> <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>contact@klivio.fr</p>
+            <div id="space">
+                <div class="footer-links">
+                    <h4>Mentions légales</h4>
+                    <ul>
+                        <li><a href="#">CGU</a></li>
+                        <li><a href="#">CGV</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Coordonnées</h4>
+                    <p> <i class="fa-solid fa-location-dot" style="color: #f6f5f4;"></i>1 place république,<br>75003
+                        paris
+                    </p>
+                    <p> <i class="fa-solid fa-phone" style="color: #f6f5f4;"></i> 01.02.03.04.05</p>
+                    <p> <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>contact@klivio.fr</p>
+                </div>
             </div>
-
             <div class="footer-buttons">
                 <button type="submit" class="white-btn">Connextion</button>
                 <button type="submit" class="blue-btn">Inscription</button>
             </div>
-           
-            
 
-            <div class="footer-bottom">
-                <p id="para">suivez-nous :</p>
+        </div>
+        <span class="underline-too"></span>
+        <div class="footer-bottom">
+            <p>© Klivio - 2025</p>
+            <div class="p-footer">
+                <p>suivez-nous :</p>
                 <div class="socials">
-                   <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
+        </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 
