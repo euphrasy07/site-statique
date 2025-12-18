@@ -306,7 +306,15 @@ h3 {
   left: 73px;
  
 }
-
+.name{
+    font-weight: 700;
+    font-size: 24px;
+    color:#152237;
+    margin-top: 25px;
+    position: relative;
+  left: 73px;
+ 
+}
 #main-blue {
     background-color: #152237;
 }

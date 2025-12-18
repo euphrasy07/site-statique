@@ -23,7 +23,7 @@
             <form class="search-bar">
                 <div class="search-wrapper">
                     <label for="search"></label>
-                    <input class="search-bar" type="search" placeholder="Rechercher ..." required>
+                    <input class="search-bar" type="search" aria-label="faire une recherche" placeholder="Rechercher ..." required>
                     <button class="glass" type="submit">
                         <img src="icone.png" alt="icone de recherche" class="search-icon">
                     </button>
@@ -205,7 +205,7 @@
         <div id="div-avis">
             <div id="first-avis">
                 <img src="juliette.png" alt="photo d'une clliente" class="avis-img">
-                <h3>Juliette</h3>
+                <h3 class="name">Juliette</h3>
                 <img src="note.png" alt="étoiles" class="star">
                 <p class="comments">J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et
                     projets pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire et
@@ -213,7 +213,7 @@
             </div>
             <div id="second-avis">
                 <img src="camille.png" alt="photo d'une cliente" class="avis-img">
-                <h3>Camille</h3>
+                <h3 class="name">Camille</h3>
                 <img src="note.png" alt="étoiles" class="star">
                 <p class="comments">Bon équilibre entre théorie et pratique. Les chapitres sont détaillés, et le support
                     et les corrections automatiques ont vraiment aidé. Idéal pour démarrer et progresser rapidement.</p>
@@ -337,14 +337,14 @@
 
             <form class="contact-form">
                <div class="form-row">
-  <label for="Nom"></label>
+  <label for="Nom" class="sr-only">enter votre nom</label>
   <input type="text" placeholder="Nom" required>
-  <label for="Email"></label>
+  <label for="Email" class="sr-only">entrer votre addresse email</label>
   <input type="email" placeholder="Email" required>
 </div>
 
 <div class="form-row form-row-full">
-    <label for="message"></label>
+    <label for="message" class="sr-only">entrer un message</label>
   <textarea placeholder="Votre message" required></textarea>
 </div>
 
@@ -395,10 +395,10 @@
             <div class="p-footer">
                 <p>suivez-nous :</p>
                 <div class="socials">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                 </div>
             </div>
         </div>
