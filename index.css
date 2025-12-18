@@ -119,6 +119,7 @@ nav {
 }
 
 #back-image {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,7 +144,7 @@ nav {
     z-index: -2;
 }
 
-#filter {
+/* #filter {
     background-image:
         linear-gradient(rgba(68, 221, 138, 1), rgba(21, 183, 226, 1)),
         url("bg-header.png");
@@ -154,7 +155,7 @@ nav {
     object-fit: cover;
     z-index: -1;
     opacity: 70%;
-}
+} */
 
 h1 {
     width: 100%;
