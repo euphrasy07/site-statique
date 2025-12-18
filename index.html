@@ -20,15 +20,23 @@
         <nav>
             <img src="logo.png" alt="logo du site" id="logo">
             <a href=" .formations" id="white">Les formations</a>
-            <form class="search-bar">
-                <div class="search-wrapper">
-                    <label for="search" class="sr-only">faire une recherche</label>
-                    <input class="search-bar" type="search" placeholder="Rechercher ..." required>
-                    <button class="glass" type="submit">
-                        <img src="icone.png" alt="icone de recherche" class="search-icon">
-                    </button>
-                </div>
-            </form>
+           <form class="search-bar">
+  <div class="search-wrapper">
+    <label for="search" class="sr-only">Faire une recherche</label>
+    <input
+      class="search-bar"
+      type="search"
+      id="search"
+      name="search"
+      placeholder="Rechercher ..."
+      required
+    >
+    <button class="glass" type="submit">
+      <img src="icone.png" alt="icone de recherche" class="search-icon">
+    </button>
+  </div>
+</form>
+
 
 <input type="checkbox" id="burger-toggle" class="burger-toggle">
 
@@ -331,28 +339,46 @@
     </section>
 
     <section id="contact">
-        <div class="contact-container">
-            <h2>NOUS CONTACTER</h2>
-            <span class="underline"></span>
+  <div class="contact-container">
+    <h2>NOUS CONTACTER</h2>
+    <span class="underline"></span>
 
-            <form class="contact-form">
-               <div class="form-row">
-  <label for="Nom" class="sr-only"> votre nom</label>
-  <input type="text" placeholder="Nom" required>
-  <label for="Email" class="sr-only">votre addresse email</label>
-  <input type="email" placeholder="Email" required>
-</div>
+    <form class="contact-form">
+      <div class="form-row">
+        <label for="Nom" class="sr-only">Votre nom</label>
+        <input
+          type="text"
+          id="Nom"
+          name="Nom"
+          placeholder="Nom"
+          required
+        >
 
-<div class="form-row form-row-full">
-    <label for="message" class="sr-only"> un message</label>
-  <textarea placeholder="Votre message" required></textarea>
-</div>
+        <label for="Email" class="sr-only">Votre adresse email</label>
+        <input
+          type="email"
+          id="Email"
+          name="Email"
+          placeholder="Email"
+          required
+        >
+      </div>
 
-                <button type="submit">Envoyer</button>
-            </form>
-        </div>
+      <div class="form-row form-row-full">
+        <label for="message" class="sr-only">Votre message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Votre message"
+          required
+        ></textarea>
+      </div>
 
-    </section>
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+</section>
+
 
     <div class="rectangle"></div>
 
