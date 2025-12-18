@@ -22,8 +22,8 @@
             <a href=" .formations" id="white">Les formations</a>
             <form class="search-bar">
                 <div class="search-wrapper">
-                    <label for="search"></label>
-                    <input class="search-bar" type="search" aria-label="faire une recherche" placeholder="Rechercher ..." required>
+                    <label for="search" class="sr-only">faire une recherche</label>
+                    <input class="search-bar" type="search" placeholder="Rechercher ..." required>
                     <button class="glass" type="submit">
                         <img src="icone.png" alt="icone de recherche" class="search-icon">
                     </button>
@@ -332,19 +332,19 @@
 
     <section id="contact">
         <div class="contact-container">
-            <h2>NOUS CONTACTER</h2>j'
+            <h2>NOUS CONTACTER</h2>
             <span class="underline"></span>
 
             <form class="contact-form">
                <div class="form-row">
-  <label for="Nom" class="sr-only">enter votre nom</label>
+  <label for="Nom" class="sr-only"> votre nom</label>
   <input type="text" placeholder="Nom" required>
-  <label for="Email" class="sr-only">entrer votre addresse email</label>
+  <label for="Email" class="sr-only">votre addresse email</label>
   <input type="email" placeholder="Email" required>
 </div>
 
 <div class="form-row form-row-full">
-    <label for="message" class="sr-only">entrer un message</label>
+    <label for="message" class="sr-only"> un message</label>
   <textarea placeholder="Votre message" required></textarea>
 </div>
 
